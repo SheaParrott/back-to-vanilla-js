@@ -127,6 +127,8 @@
       document.addEventListener(
         'click',
         function(event) {
+          // currently listening to the whole document when clicked
+
           // Only run if the clicked link was an accordion toggle
           if (!event.target.classList.contains('accordion-toggle')) return
 
