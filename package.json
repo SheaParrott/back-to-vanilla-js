@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "back-to-vanilla-js",
+  "homepage": "https://back-to-vanilla-js-sheaparrott.surge.sh",
+  "scripts": {
+    "deploy": "surge public https://back-to-vanilla-js-sheaparrott.surge.sh",
+    "postdeploy": "echo 'Your site was deployed to https://back-to-vanilla-js-sheaparrott.surge.sh'",
+    "start": "browser-sync start --server 'public' --files 'public'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}
